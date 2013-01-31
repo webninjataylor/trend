@@ -1,0 +1,360 @@
+/************************/
+/******** COLORS ********/
+/************************/
+/*
+Pink = d6007d
+Lime Green = a8f000
+Light Green = cff76f
+Dark Green = 40ae49
+*/
+/******** Thread Colors ********/
+.t-brightpink {background:url('../images/t-brightpink.gif') no-repeat center center;}
+.t-babypink {background:url('../images/t-babypink.png') no-repeat center center;}
+.t-springgreen {background:url('../images/t-springgreen.jpg') no-repeat center center;}
+.t-palelime {background:url('../images/t-palelime.gif') no-repeat center center;}
+.t-babyblue {background:url('../images/t-babyblue.gif') no-repeat center center;}
+.t-yellow {background:url('../images/t-yellow.jpg') no-repeat center center;}
+.t-palesilver {background:url('../images/t-palesilver.jpg') no-repeat center center;}
+.t-gray {background:url('../images/t-gray.jpg') no-repeat center center;}
+.t-christmasred {background:url('../images/t-christmasred.jpg') no-repeat center center;}
+.t-green {background:url('../images/t-green.jpg') no-repeat center center;}
+.t-darkorange {background:url('../images/t-darkorange.jpg') no-repeat center center;}
+.t-turquoise {background:url('../images/t-turquoise.jpg') no-repeat center center;}
+.t-orchid {background:url('../images/t-orchid.jpg') no-repeat center center;}
+.t-purple {background:url('../images/t-purple.jpg') no-repeat center center;}
+.t-darkteal {background:url('../images/t-darkteal.jpg') no-repeat center center;}
+.t-navy {background:url('../images/t-navy.jpg') no-repeat center center; color:#ffffff;}
+.t-black {background:url('../images/t-black.jpg') no-repeat center center; color:#ffffff;}
+.t-white {background:url('../images/t-white.jpg') no-repeat center center;}
+.t-gold {background:url('../images/t-gold.jpg') no-repeat center center;}
+.t-lime {background:url('../images/t-lime.jpg') no-repeat center center;}
+.t-olive {background:url('../images/t-olive.jpg') no-repeat center center;}
+.t-lavender {background:url('../images/t-lavender.jpg') no-repeat center center;}
+.t-pink {background:url('../images/t-pink.jpg') no-repeat center center;}
+.t-khaki {background:url('../images/t-khaki.jpg') no-repeat center center;}
+.t-brown {background:url('../images/t-brown.jpg') no-repeat center center;}
+/******** Wrap Colors ********/
+.w-aqua {background-color:#33b2e7;}
+.w-hotpink {background-color:#e86ba6;}
+.w-lime {background-color:#82be2e;}
+.w-orange {background-color:#f7b239;}
+.w-white {background-color:#ffffff;}
+.w-black {background-color:#000000; color:#ffffff;}
+.w-pink {background-color:#eabfda;}
+.w-purple {background-color:#683a78;}
+.w-navy {background-color:#2d3d69; color:#ffffff;}
+.w-red {background-color:#dd2c4c;}
+/******** Tote Colors ********/
+.m-pinkbrowntrim {background:url('../images/m-pinkbrowntrim.jpg') no-repeat center center;}
+.m-hotpink {background:url('../images/m-hotpink.jpg') no-repeat center center;}
+.m-red {background:url('../images/m-red.jpg') no-repeat center center;}
+.m-orange {background:url('../images/m-orange.jpg') no-repeat center center;}
+.m-lime {background:url('../images/m-lime.jpg') no-repeat center center;}
+.m-limefloral {background:url('../images/m-limefloral.jpg') no-repeat center center;}
+.m-greendots {background:url('../images/m-greendots.jpg') no-repeat center center;}
+.m-aqua {background:url('../images/m-aqua.jpg') no-repeat center center;}
+.m-navy {background:url('../images/m-navy.jpg') no-repeat center center; color:#ffffff;}
+.m-royalblue {background:url('../images/m-royalblue.jpg') no-repeat center center; color:#ffffff;}
+.m-purple {background:url('../images/m-purple.jpg') no-repeat center center; color:#ffffff;}
+.m-tuttifrutti {background:url('../images/m-tuttifrutti.jpg') no-repeat center center;}
+.m-peace {background:url('../images/m-peace.jpg') no-repeat center center;}
+.m-camo {background:url('../images/m-camo.jpg') no-repeat center center; color:#ffffff;}
+.m-brown {background:url('../images/m-brown.jpg') no-repeat center center; color:#ffffff;}
+.m-greyflower {background:url('../images/m-greyflower.jpg') no-repeat center center;}
+.m-black {background:url('../images/m-black.jpg') no-repeat center center; color:#ffffff;}
+.m-blackdot {background:url('../images/m-blackdot.jpg') no-repeat center center; color:#ffffff;}
+.m-houndstooth {background:url('../images/m-houndstooth.jpg') no-repeat center center; color:#ffffff;}
+.m-stripe {background:url('../images/m-stripe.jpg') no-repeat center center; color:#ffffff;}
+.m-swirl {background:url('../images/m-swirl.jpg') no-repeat center center; color:#ffffff;}
+.m-zebra {background:url('../images/m-zebra.jpg') no-repeat center center; color:#ffffff;}
+.lightpink {background-color:#ec99a5;}
+.lightpink-a {background-color:#ec99a5;} /*a=acrylic*/
+.hotpink {background-color:#e5558e;}
+.electricblue {background-color:#ffffff;}
+.limegreen {background-color:#ffffff;}
+.purple {background-color:#ffffff;}
+.orange {background-color:#ff7f01;}
+.white {background-color:#ffffff;}
+.black {background-color:#010101; color:#ffffff;}
+.navy {background-color:#010053; color:#ffffff;}
+.grassgreen {background-color:#ffffff;}
+.brightblue {background-color:#ffffff;}
+.babyblue {background-color:#ffffff;}
+.teal {background-color:#015353; color:#ffffff;}
+.yellow {background-color:#ffffff;}
+.maroon {background-color:#530000; color:#ffffff;}
+.lavender {background-color:#c144ff;}
+.brown {background-color:#3c2821; color:#ffffff;}
+.gray {background-color:#ffffff;}
+.red {background-color:#a71100; color:#ffffff;}
+.yellowgold {background-color:#ef9b10;}
+.silver {background-color:#d1d5d8;}
+.aqua {background-color:#77baa8;}
+.lightgray {background-color:#726b68;}
+.gold {background-color:#7d6b17;}
+.charcoalgray {background-color:#49505a;}
+.applegreen {background-color:#a4cf4f;}
+.carolinablue {background-color:#88aaff;}
+.brightpurple {background-color:#430064;}
+.plumpurple {background-color:#800080;}
+.royalblue {background-color:#4521ee;}
+.brightyellow {background-color:#ffff03;}
+/**********************/
+/******** MAIN ********/
+/**********************/
+body {
+	border:20px solid #40ae49;
+	margin:0;
+	background-color:#cff76f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+.rev {
+	color:#ffffff;
+}
+.vinyl {
+	font-weight:bold;
+}
+.vinyl td {
+	width:80px;
+	height:80px;
+	text-align:center;
+}
+/************************/
+/******** HEADER ********/
+/************************/
+header {
+	margin:0 auto;
+	background:url('logo2.png') no-repeat top left;
+	height:100px;
+	width:846px;
+	margin-bottom:10px;
+	left:55px;
+	position:relative;
+}
+#viewcart {
+	display:block;
+	position:absolute;
+	top:20px;
+	right:220px;
+}
+#tweetthis {
+	position: absolute;
+    right: 0;
+    top: 20px;
+}
+.fb_iframe_widget {
+    left: 652px;
+	top: 20px;
+}
+#contactus {
+	position:absolute;
+	right:0;
+	bottom:0;
+	text-align:right;
+}
+#phone {
+	font-size:18px;
+	font-weight:bold;
+}
+#address {
+	font-size:12px;
+}
+#maincontent {
+	border:3px solid #d6007d;
+	background-color:#ffffff;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	margin: 0 auto;
+	width: 800px;
+	padding:20px;
+	padding-right:0;
+	position:relative;
+	left:68px;
+	overflow:visible;
+}
+.itemgroup {
+	float:left;
+	width:180px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.itemgroup img {
+	width:180px;
+	height:200px;
+}
+.focused {
+	opacity:1;
+}
+.blurred {
+	opacity:0.5;
+}
+.item {
+	width:160px;
+	padding:10px;
+	background-color:#d6007d;
+	color:#ffffff;
+	font-weight:bold;
+	position:relative;
+	top:-6px;
+	cursor:pointer;
+	font-size:14px;
+}
+.itemgroup a {
+	text-decoration:none;
+	color:#ffffff;
+	border:none;
+}
+#vinylcolors {
+	position:relative;
+	float:right;
+	margin:0 0 10px 10px;
+}
+menu {
+	list-style:none;
+	display:inline-block;
+	position:absolute;
+	left:-140px;
+	border:3px solid #d6007d;
+	border-bottom:none;
+	border-right:none;
+	margin:0;
+	padding:0;
+	border-top-left-radius:10px;
+	-moz-border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	-moz-border-bottom-left-radius:10px;
+}
+menu li {
+	width:134px;
+	background-color:#40ae49;
+	border-bottom:3px solid #d6007d;
+	border-right:3px solid #d6007d;
+	cursor:pointer;
+}
+menu li a {
+	text-decoration:none;
+	color:#000000;
+	display: block;
+    padding: 5px;
+	font-size: 14px;
+}
+menu li:hover {
+	background-color:#a8f000;
+}
+menu li.active {
+	background-color:#ffffff;
+	border-right:3px solid #ffffff;
+}
+h1 span {
+	font-size:14px;
+	font-weight:normal;
+}
+h2 {
+	color:#ff0000;
+	font-size:12px;
+	font-weight:bold;
+}
+#storenotes {
+	 clear:both;
+	 border:4px double #d6007d;
+	 padding:10px;
+	 margin: 20px 20px 0 0;
+}
+.important {
+	color:#ff0000;
+	font-weight:bold;
+}
+.kindaimportant {
+	color:#ff0000;
+}
+footer {
+	margin:0 auto;
+	width:800px;
+	margin-top:10px;
+	margin-bottom:20px;
+	left:55px;
+	position:relative;
+	font-size:12px;
+}
+.clrfix:after, header:after, footer:after, section:after {
+	visibility:hidden;
+	display:block;
+	font-size:0;
+	line-height:0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+input[type="submit"] {
+	cursor:pointer;
+}
+.colorchart {
+	list-style:none;
+	clear:both;
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	margin:0 20px 20px 0;
+}
+.colorchart h3 {
+	margin:0 0 5px 0;
+	padding:0;
+}
+.colorchart ul {
+	list-style:none;
+	display:block;
+	margin:0 20px 0 0;
+	padding:0;
+}
+.colorchart ul li {
+	padding:3px;
+	float:left;
+	width:50px;
+	height:50px;
+}
+form.formfields {
+	float:left;
+	margin-right:20px;
+	margin-bottom: 10px;
+}
+form.formfields input {
+	width:174px;
+}
+form.formfields input.submit {
+	width:180px;
+	background-color:#a8f000;
+	color:#d6007d;
+	font-size:16px;
+	font-weight:bold;
+	padding:3px;
+}
+form.formfields input.submit:hover {
+	background-color:#d6007d;
+	color:#a8f000;
+}
+form.formfields select {
+	width:180px;
+}
+div.row {
+	clear: both;
+	padding-top: 10px;
+}
+div.row span.label {
+	float: left;
+	width: 180px;
+	text-align: right;
+	padding-right:5px;
+}
+div.row span.field {
+	float: right;
+	width: 180px;
+	text-align: left;
+}
+.note {
+	font-size:9px;
+}
+.monogram {
+	display: none;
+}
