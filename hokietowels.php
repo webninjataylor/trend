@@ -9,7 +9,9 @@
 <section id="maincontent" class="clrfix">
   <h1>Hokie Bird Hooded Towel</h1>
   <?php include('includes/menu.php'); ?>
-  <p style="margin-right:20px;">Great as a beach cover up or spa wrap. Adjustable velcro closure. Children's also have shoulder straps to provide a secure fit. Made of 100% cotton, triple sheared, and luxurious terry velour fabric. Great for baby shower gifts, children, and as a novelty gift for adults or students leaving for college!  This product is made with a full sized towel and we are happy to monogram it if you'd like!  The hokie hooded towel was even designed by a Virginia Tech Alumni family!!</p>
+  <p style="margin-right:20px;">Great for baby shower gifts, children, and as a novelty gift for adults or students leaving for college!  This product is made with a full sized towel and we are happy to monogram it if you'd like!  The hokie hooded towel was even designed by a Virginia Tech Alumni family!!</p>
+
+  <p>Towel size (not including hood) is 59&quot; x 29&quot;</p>
 
   <img src="images/hokie-towel-folded.jpg" width="150px" />
   <img src="images/hokie-towel-on-model.jpg" width="150px" />
