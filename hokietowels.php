@@ -30,25 +30,10 @@
     	<span class="label"><input type="hidden" name="on0" value="Size">Wrap Size:</span>
         <span class="field">
           <select name="os0" id="wrapsize">
-              <option value="Adult" class="adult">Adult - $45.99</option>
-              <option value="Adult (with Monogram)" class="adult withmonogram">Adult (with Monogram) - $55.99</option>
-              <option value="Child Size 4/7" class="child">Child Size 4/7 - $45.99</option>
-              <option value="Child Size 4/7 (with Monogram)" class="child withmonogram">Child Size 4/7 (with Monogram) - $55.99</option>
-              <option value="Child Size 8/12" class="child">Child Size 8/12 - $45.99</option>
-              <option value="Child Size 8/12 (with Monogram)" class="child withmonogram">Child Size 8/12 (with Monogram) - $55.99</option>
+              <option value="One Size" class="adult">One Size - $45.99</option>
           </select>
-          <input type="hidden" name="option_select0" value="Adult" />
+          <input type="hidden" name="option_select0" value="One Size" />
           <input type="hidden" name="option_amount0" value="45.99" />
-          <input type="hidden" name="option_select1" value="Adult (with Monogram)" />
-          <input type="hidden" name="option_amount1" value="55.99" />
-          <input type="hidden" name="option_select2" value="Child Size 4/7" />
-          <input type="hidden" name="option_amount2" value="45.99" />
-          <input type="hidden" name="option_select3" value="Child Size 4/7 (with Monogram)" />
-          <input type="hidden" name="option_amount3" value="55.99" />
-          <input type="hidden" name="option_select4" value="Child Size 8/12" />
-          <input type="hidden" name="option_amount4" value="45.99" />
-          <input type="hidden" name="option_select5" value="Child Size 8/12 (with Monogram)" />
-          <input type="hidden" name="option_amount5" value="55.99" />
           <input type="hidden" name="option_index" value="0" />
        </span>
     </div>
