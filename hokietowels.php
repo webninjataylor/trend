@@ -78,7 +78,7 @@
             <input type="hidden" name="item_name" value="Towel Wrap" />
             <input type="hidden" name="shipping" value="5.50" />
             <input type="hidden" name="shipping2" value="1.25" />
-            <input type="hidden" name="tax_rate" value="6" />
+            <input type="hidden" name="tax_rate" value="5.3" />
             <input type="hidden" name="currency_code" value="USD" />
             <input type="hidden" name="shopping_url" value="http://trendva.com/towelwraps.php" />
             <input type="hidden" name="cancel_return" value="http://trendva.com/towelwraps.php" />
