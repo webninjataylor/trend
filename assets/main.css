@@ -358,3 +358,7 @@ div.row span.field {
 .monogram {
 	display: none;
 }
+img.pinimg {
+	height: 50px;
+	width: 80px;
+}
