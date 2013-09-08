@@ -106,7 +106,7 @@
           <input type="hidden" name="item_name" value="Market Tote" />
           <input type="hidden" name="shipping" value="5.50" />
           <input type="hidden" name="shipping2" value="1.25" />
-            <input type="hidden" name="tax_rate" value="5" />
+            <input type="hidden" name="tax_rate" value="5.3" />
             <input type="hidden" name="currency_code" value="USD" />
           <input type="hidden" name="shopping_url" value="http://trendva.com/totes.php" />
           <input type="hidden" name="cancel_return" value="http://trendva.com/totes.php" />
