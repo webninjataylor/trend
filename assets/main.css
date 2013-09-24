@@ -362,3 +362,11 @@ img.pinimg {
 	height: 50px;
 	width: 80px;
 }
+#hours {
+	position: absolute;
+	right: 310px;
+	top: 55px;
+}
+.firstitem {
+	clear: both;
+}

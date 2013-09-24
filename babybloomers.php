@@ -81,7 +81,7 @@
         <span class="field"><input type="text" name="os1" value="" />
         <span style="color:#ff0000;">Monograms will be in the order they are typed, and are 1) First initial, 2) LAST initial, and 3) Middle initial.</span></span>
     </div>
-    <?php include('includes/fonts.php'); ?>
+    <?php include('includes/fonts_threads.php'); ?>
     <div class="row">
     	<span class="label"><input type="hidden" name="on2" value="Thread Color" />Thread Color:</span>
         <span class="field">
@@ -139,7 +139,7 @@
     </div>
   </form>
   <?php include('includes/threadchart.php'); ?>
-  <?php include('includes/fontchart.php'); ?>
+  <?php include('includes/fontchart_threads.php'); ?>
   <?php include('includes/notes.php'); ?>
 </section>
 <?php include('includes/footer.php'); ?>

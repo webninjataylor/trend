@@ -130,7 +130,7 @@
         <span class="field"><input type="text" name="os2" value="" />
         <span style="color:#ff0000;">Monograms will be in the order they are typed, and are 1) First initial, 2) LAST initial, and 3) Middle initial.</span></span>
     </div>
-    <?php include('includes/fonts.php'); ?>
+    <?php include('includes/fonts_vinyl.php'); ?>
     <div class="row">
     	<span class="label">Quantity:</span>
         <span class="field"><input type="text" name="quantity" value="1" /></span>
@@ -156,7 +156,7 @@
     </div>
   </form>
   <?php include('includes/vinylchart.php'); ?>
-  <?php include('includes/fontchart.php'); ?>
+  <?php include('includes/fontchart_vinyl.php'); ?>
   <?php include('includes/notes.php'); ?>
 </section>
 <?php include('includes/footer.php'); ?>
