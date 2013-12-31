@@ -1,0 +1,1 @@
+<img src="images/KAM_DealerSEAL_1013.gif" alt="Authorized Kameleon Dealer" class="kameleon-logo-page nopin">

@@ -1,4 +1,4 @@
-<footer>Copyright &copy; 2012 trend. All rights reserved. &#149; Website design and development by <a href="https://www.elance.com/s/webninjataylor/">WebNinjaTaylor</a></footer>
+<footer>Copyright &copy; 2012 trend. All rights reserved. &#149; <a href="privacypolicy.php">Privacy Policy</a> &#149; Website design and development by <a href="https://www.elance.com/s/webninjataylor/">WebNinjaTaylor</a></footer>
 <script language="javascript" src="assets/jquery-1.7.1.min.js"></script> 
 <script language="javascript" src="assets/main.js"></script> 
 <script language="javascript">

@@ -1,5 +1,6 @@
 <?php include('intro.php'); ?>
 <div id="storenotes">
+  <img src="images/kim_and_andrew.jpg" alt="" class="nopin">
   <ul>
     <li class="important">Personalized items are non-returnable and non-refundable</li>
     <li>Shipped within 2 weeks <span class="kindaimportant">(In-store pick-ups must be within one week when notified your order is ready)</span></li>

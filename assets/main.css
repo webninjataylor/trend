@@ -370,3 +370,19 @@ img.pinimg {
 .firstitem {
 	clear: both;
 }
+.kameleon-logo-home {
+	float: right;
+	position: relative;
+	top: -10px;
+	width: 200px;
+}
+.kameleon-logo-page {
+	float: right;
+	position: relative;
+	top: -10px;
+	width: 200px;
+}
+#storenotes img {
+	float: right;
+	margin: 65px 20px 20px 20px;
+}
