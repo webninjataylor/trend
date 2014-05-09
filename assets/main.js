@@ -33,6 +33,7 @@ for(i=0; i < $('menu').children('li').length; i++){
     var currentMenuItem = $('menu').children('li').eq(i);
     // Is it a top-level menu item?...
     if(currentMenuItem.children('a').attr('data-path') == currentPage){
+        $('menu').children('li').removeClass('active');
         currentMenuItem.addClass('active');
     // ...or a second-level menu item?
     } else {

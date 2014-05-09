@@ -26,26 +26,26 @@
   <h1>Glasses <span>(Includes monogramming and matching ribbon)</span></h1>
   <p>Call for more glass options (Beer Mugs, Martini Glasses, etc.)</p>
   <div class="itemgroup">
-  	<a href="glasses.php">
+    <a href="glasses.php">
         <img src="images/wineglass.jpg" />
         <div class="item">Wine Glasses</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="glasses.php">
+    <a href="glasses.php">
         <img src="images/pilsners.jpg" />
         <div class="item">Pilsners</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="glasses.php">
+    <a href="glasses.php">
         <img src="images/pilsners2.jpg" />
         <div class="item">Pilsners w/ Ribbons</div>
     </a>
   </div>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" id="addtopaypal" class="formfields">
     <div class="row">
-    	<span class="label"><input type="hidden" name="on0" value="Size">Glasses:</span>
+        <span class="label"><input type="hidden" name="on0" value="Size">Glasses:</span>
         <span class="field">
         <select name="os0">
             <option value="Wine Glasses">Wine Glasses - $16.99 each</option>
@@ -65,7 +65,7 @@
        </span>
     </div>
     <div class="row">
-    	<span class="label"><input type="hidden" name="on1" value="Text Color" />Text Color:</span>
+        <span class="label"><input type="hidden" name="on1" value="Text Color" />Text Color:</span>
         <span class="field">
             <select name="os1">
                 <option value="maroon" selected="selected">Maroon</option>
@@ -95,7 +95,7 @@
         </span>
     </div>
     <div class="row">
-    	<span class="label"><input type="hidden" name="on3" value="Polka Dots" />Polka Dots:</span>
+        <span class="label"><input type="hidden" name="on3" value="Polka Dots" />Polka Dots:</span>
         <span class="field">
             <select name="os3">
                 <option value="None" selected="selected">None</option>
@@ -126,21 +126,31 @@
         </span>
     </div>
     <div class="row">
-    	<span class="label"><input type="hidden" name="on2" value="Initial, Monogram, or Name" />Initial(s), Monogram, or Name:</span>
+        <span class="label"><input type="hidden" name="on2" value="Initial, Monogram, or Name" />Initial(s), Monogram, or Name:</span>
         <span class="field"><input type="text" name="os2" value="" />
         <span style="color:#ff0000;">Monograms will be in the order they are typed, and are 1) First initial, 2) LAST initial, and 3) Middle initial.</span></span>
     </div>
-    <?php include('includes/fonts_vinyl.php'); ?>
     <div class="row">
-    	<span class="label">Quantity:</span>
+        <span class="label"><input type="hidden" name="on4" value="Font" />Font:</span>
+        <span class="field">
+            <select name="os4">
+                <option value="Circle Block" selected="selected">Circle Block</option>
+                <option value="Innerlocking">Innerlocking</option>
+                <option value="Modern Schoolhouse">Modern Schoolhouse</option>
+                <option value="Ravi">Ravi</option>
+            </select>
+        </span>
+    </div>
+    <div class="row">
+        <span class="label">Quantity:</span>
         <span class="field"><input type="text" name="quantity" value="1" /></span>
     </div>
     <?php include('includes/pp-phone.php'); ?>
     <?php include('includes/pp-shipping.php'); ?>
     <div class="row" id="paypalmeta">
-    	<span class="label"></span>
+        <span class="label"></span>
         <span class="field">
-        	<input type="hidden" name="business" value="payment@trendva.com" />
+            <input type="hidden" name="business" value="payment@trendva.com" />
           <input type="hidden" name="cmd" value="_cart" />
           <input type="hidden" name="add" value="1" />
           <input type="hidden" name="item_name" value="Glass(es)" />
@@ -156,7 +166,15 @@
     </div>
   </form>
   <?php include('includes/vinylchart.php'); ?>
-  <?php include('includes/fontchart_vinyl.php'); ?>
+  <div class="fonts" style="clear:both;">
+    <h3 style="margin-bottom: 5px;">Fonts</h3>
+    <ul style="margin:0; padding:0; margin-bottom:20px; height:127px;">
+      <li style="background:url('images/font-circleblock.jpg') no-repeat 0 35px; width:94px; height:127px; float:left; list-style:none; color:#000000; padding:3px; margin:0;">Circle Block</li>
+      <li style="background:url('images/font-innerlocking.jpg') no-repeat top left; width:194px; height:146px; float:left; list-style:none; color:#000000; padding:3px; margin:0;">Innerlocking</li>
+      <li style="background:url('images/font-modernschoolhouse.jpg') no-repeat 0 35px; width:94px; height:127px; float:left; list-style:none; color:#000000; padding:3px; margin:0;">Modern Schoolhouse</li>
+      <li style="background:url('images/font-ravi.jpg') no-repeat 0 35px; width:94px; height:127px; float:left; list-style:none; color:#000000; padding:3px; margin:0;">Ravi</li>
+    </ul>
+  </div>
   <?php include('includes/notes.php'); ?>
 </section>
 <?php include('includes/footer.php'); ?>

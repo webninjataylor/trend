@@ -25,6 +25,18 @@
   <?php include('includes/menu.php'); ?>
   <?php include('includes/intro.php'); ?>
   <div class="itemgroup">
+    <a href="metalmonograms.php">
+        <img src="images/monogram1.jpg" />
+        <div class="item">Metal Monograms</div>
+    </a>
+  </div>
+  <div class="itemgroup">
+    <a href="garter.php">
+        <img src="images/garter3.jpg" />
+        <div class="item">GlitzyGoGarter&#153;</div>
+    </a>
+  </div>
+  <div class="itemgroup">
     <a href="oxfords.php">
         <img src="images/buttondown_1.jpg" />
         <div class="item">Women's Oxfords</div>
@@ -96,7 +108,7 @@
       <div class="item" style="font-size: 13px;">Hokie Bird Hooded Towel</div>
     </a>
   </div>
-  <div class="itemgroup firstitem">
+  <div class="itemgroup">
   	<a href="gloves.php">
     	<img src="images/gloves2.jpg" />
     	<div class="item">Gloves</div>

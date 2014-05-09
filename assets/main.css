@@ -103,9 +103,9 @@ Dark Green = 40ae49
 /******** MAIN ********/
 /**********************/
 body {
-	border:20px solid #40ae49;
+	/*border:20px solid #40ae49;*/
 	margin:0;
-	background-color:#cff76f;
+	background-color:#d1de98;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 }
@@ -161,7 +161,7 @@ header {
 	font-size:12px;
 }
 #maincontent {
-	border:3px solid #d6007d;
+	border:3px solid #000000;
 	background-color:#ffffff;
 	border-radius:10px;
 	-moz-border-radius:10px;
@@ -215,9 +215,10 @@ menu {
 	display:inline-block;
 	position:absolute;
 	left:-140px;
-	border:3px solid #d6007d;
-	border-bottom:none;
-	border-right:none;
+	background-color: #ffffff;
+	border: 3px solid #000000;
+	border-bottom: none;
+	border-right: none;
 	margin:0;
 	padding:0;
 	border-top-left-radius:10px;
@@ -226,25 +227,29 @@ menu {
 	-moz-border-bottom-left-radius:10px;
 }
 menu li {
-	width:134px;
-	background-color:#40ae49;
-	border-bottom:3px solid #d6007d;
-	border-right:3px solid #d6007d;
-	cursor:pointer;
+	width: 134px;
+	background-color: rgba(61,111,136,1);
+	border-bottom: 3px solid #000000;
+	border-right: 3px solid #000000;
+	cursor: pointer;
 }
 menu li a {
-	text-decoration:none;
-	color:#000000;
+	text-decoration: none;
+	color: #ffffff;
 	display: block;
     padding: 5px;
 	font-size: 14px;
 }
 menu li:hover {
-	background-color:#a8f000;
+	background-color: rgba(61,111,136,0.5);
 }
 menu li.active {
 	background-color:#ffffff;
 	border-right:3px solid #ffffff;
+}
+menu li.active a {
+	color: #000000;
+	font-weight: bold;
 }
 h1 span {
 	font-size:14px;
