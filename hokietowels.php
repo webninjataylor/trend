@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
   <title>trend. - Hokie Bird Hooded Towel</title>
+
+
+  <meta property="og:url" content="http://trendva.com/hokietowels.php" />
+  <meta property="og:title" content="trend. - Hokie Bird Hooded Towel" />
+  <meta property="og:description" content="Great for baby shower gifts, children, and as a novelty gift for adults or students leaving for college!  This product is made with a full sized towel and we are happy to monogram it if you'd like!  The hokie hooded towel was even designed by a Virginia Tech Alumni family!!" />
+  <meta property="og:image" content="http://trendva.com/images/hokie-towel.jpg" />
+
+
   <?php include('includes/meta.php'); ?>
 </head>
 <body>
@@ -9,6 +17,7 @@
 <section id="maincontent" class="clrfix">
   <?php include('includes/menu.php'); ?>
   <h1>Hokie Bird Hooded Towel</h1>
+  <?php include('includes/sharethis.php'); ?>
   <p style="margin-right:20px;">Great for baby shower gifts, children, and as a novelty gift for adults or students leaving for college!  This product is made with a full sized towel and we are happy to monogram it if you'd like!  The hokie hooded towel was even designed by a Virginia Tech Alumni family!!</p>
 
   <p>Towel size (not including hood) is 59&quot; x 29&quot;</p>
@@ -83,7 +92,7 @@
             <input type="hidden" name="shopping_url" value="http://trendva.com/hokietowels.php" />
             <input type="hidden" name="cancel_return" value="http://trendva.com/hokietowels.php" />
             <input type="hidden" name="return" value="http://trendva.com/hokietowels.php" />
-            <input type="submit" name="addtocart" value="Add to Cart" class="submit" />
+            <button type="submit" class="btn" id="addtocart">Add to Cart</button>
         </span>
     </div>
   </form>

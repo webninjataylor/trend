@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
   <title>trend. - Towel Wraps</title>
+
+
+  <meta property="og:url" content="http://trendva.com/towelwraps.php" />
+  <meta property="og:title" content="trend. - Towel Wraps" />
+  <meta property="og:description" content="Great as a beach cover up or spa wrap. Adjustable velcro closure. Children's also have shoulder straps to provide a secure fit. Made of 100% cotton, triple sheared, and luxurious terry velour fabric." />
+  <meta property="og:image" content="http://trendva.com/images/towelwrap.jpg" />
+
+
   <?php include('includes/meta.php'); ?>
 </head>
 <body>
@@ -9,6 +17,7 @@
 <section id="maincontent" class="clrfix">
   <?php include('includes/menu.php'); ?>
   <h1>Towel Wraps <span>(Includes embroidery, matching ribbon, &amp; removable bow)</span></h1>
+  <?php include('includes/sharethis.php'); ?>
   <p style="margin-right:20px;">Great as a beach cover up or spa wrap. Adjustable velcro closure. Children's also have shoulder straps to provide a secure fit. Made of 100% cotton, triple sheared, and luxurious terry velour fabric.</p>
   <div class="itemgroup">
   	<a href="towelwraps.php">
@@ -102,7 +111,7 @@
             <input type="hidden" name="shopping_url" value="http://trendva.com/towelwraps.php" />
             <input type="hidden" name="cancel_return" value="http://trendva.com/towelwraps.php" />
             <input type="hidden" name="return" value="http://trendva.com/towelwraps.php" />
-            <input type="submit" name="addtocart" value="Add to Cart" class="submit" />
+            <button type="submit" class="btn" id="addtocart">Add to Cart</button>
         </span>
     </div>
   </form>

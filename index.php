@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>trend.</title>
-<link rel="stylesheet" type="text/css" media="screen" href="assets/main.css" />
-<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<script type="text/javascript">
+    <title>trend.</title>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-31221579-1']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    <meta property="og:url" content="http://trendva.com/index.php" />
+    <meta property="og:title" content="trend." />
+    <meta property="og:description" content="trend is a small, family-owned, retail store in Southside Virginia. We focus our inventory on Virginia-made products. Anything, personalized is done in house, or, local to our store. We look forward to serving you, and, hope you'll visit us in person soon." />
+    <meta property="og:image" content="http://trendva.com/assets/logo2.png" />
 
-</script>
+
+    <?php include('includes/meta.php'); ?>
 </head>
 <body>
 <?php include('includes/header.php'); ?>
 <section id="maincontent">
   <?php include('includes/menu.php'); ?>
   <?php include('includes/intro.php'); ?>
+  <?php include('includes/sharethis.php'); ?>
   <div class="itemgroup">
     <a href="metalmonograms.php">
         <img src="images/monogram1.jpg" />
@@ -49,57 +43,57 @@
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="glasses.php">
-    	<img src="images/wineglass.jpg" />
+    <a href="glasses.php">
+        <img src="images/wineglass.jpg" />
         <div class="item">Glasses</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="totes.php">
-    	<img src="images/markettotes3.jpg" />
-    	<div class="item">Market Totes</div>
+    <a href="totes.php">
+        <img src="images/markettotes3.jpg" />
+        <div class="item">Market Totes</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="carriers.php">
-    	<img src="images/3in1carrier.jpg" />
-    	<div class="item">Carriers</div>
+    <a href="carriers.php">
+        <img src="images/3in1carrier.jpg" />
+        <div class="item">Carriers</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="babybloomers.php">
-    	<img src="images/babybloomers.jpg" />
-    	<div class="item">Baby Bloomers</div>
+    <a href="babybloomers.php">
+        <img src="images/babybloomers.jpg" />
+        <div class="item">Baby Bloomers</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="hairbows.php">
-    	<img src="images/hairbow2.jpg" />
-    	<div class="item">Hair Bows</div>
+    <a href="hairbows.php">
+        <img src="images/hairbow2.jpg" />
+        <div class="item">Hair Bows</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="trays.php">
-    	<img src="images/tray.jpg" />
-    	<div class="item">Trays</div>
+    <a href="trays.php">
+        <img src="images/tray.jpg" />
+        <div class="item">Trays</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="travelmugs.php">
-    	<img src="images/travelmug2.jpg" />
-    	<div class="item">Travel Mugs</div>
+    <a href="travelmugs.php">
+        <img src="images/travelmug2.jpg" />
+        <div class="item">Travel Mugs</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="koolies.php">
-    	<img src="images/koolies.jpg" />
-    	<div class="item">Koolies</div>
+    <a href="koolies.php">
+        <img src="images/koolies.jpg" />
+        <div class="item">Koolies</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="towelwraps.php">
-    	<img src="images/towelwrap.jpg" />
-    	<div class="item">Towel Wraps</div>
+    <a href="towelwraps.php">
+        <img src="images/towelwrap.jpg" />
+        <div class="item">Towel Wraps</div>
     </a>
   </div>
   <div class="itemgroup">
@@ -109,21 +103,26 @@
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="gloves.php">
-    	<img src="images/gloves2.jpg" />
-    	<div class="item">Gloves</div>
+    <a href="gloves.php">
+        <img src="images/gloves2.jpg" />
+        <div class="item">Gloves</div>
     </a>
   </div>
   <div class="itemgroup">
-  	<a href="flipflops.php">
-    	<img src="images/flipflops.jpg" />
-    	<div class="item">Flip-flops</div>
+    <a href="flipflops.php">
+        <img src="images/flipflops.jpg" />
+        <div class="item">Flip-flops</div>
     </a>
   </div>
   <div class="itemgroup">
     <a href="stationery.php">
       <img src="images/stationery2.jpg" />
       <div class="item">Stationery</div>
+    </a>
+  </div>
+  <div class="itemgroup">
+    <a href="http://personalizeyourlife.com/id/10427" target="_blank">
+      <div class="item" style="top:0; height:234px;"><span style="font-size:28px;">See more <br />items we carry!!!</span><br /><br /> Call us to order!</div>
     </a>
   </div>
 </section>

@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>trend.</title>
-<link rel="stylesheet" type="text/css" media="screen" href="assets/main.css" />
-<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<script type="text/javascript">
+<title>trend. - Stationery</title>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-31221579-1']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+<meta property="og:url" content="http://trendva.com/stationery.php" />
+<meta property="og:title" content="trend. - Stationery" />
+<meta property="og:description" content="Fold-Over Note Cards (Matching envelopes included)" />
+<meta property="og:image" content="http://trendva.com/images/stationery2.jpg" />
 
-</script>
+
+<?php include('includes/meta.php'); ?>
 </head>
 <body>
 <?php include('includes/header.php'); ?>
 <section id="maincontent" class="clrfix">
   <?php include('includes/menu.php'); ?>
   <h1>Fold-Over Note Cards <span>(Matching envelopes included)</span></h1>
+  <?php include('includes/sharethis.php'); ?>
   <div class="itemgroup">
   	<a href="stationery.php">
     	<img src="images/stationery2.jpg" />
@@ -123,7 +117,7 @@
             <input type="hidden" name="shopping_url" value="http://trendva.com/stationery.php" />
             <input type="hidden" name="cancel_return" value="http://trendva.com/stationery.php" />
             <input type="hidden" name="return" value="http://trendva.com/stationery.php" />
-            <input type="submit" name="addtocart" value="Add to Cart" class="submit" />
+            <button type="submit" class="btn" id="addtocart">Add to Cart</button>
         </span>
     </div>
   </form>

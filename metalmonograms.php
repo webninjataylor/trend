@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
   <title>trend. - Metal Monograms</title>
+
+
+  <meta property="og:url" content="http://trendva.com/metalmonograms.php" />
+  <meta property="og:title" content="trend. - Metal Monograms" />
+  <meta property="og:description" content="Made in the USA, these metal monograms are one of our favorite products!  Designed for indoor or outdoor use, our monograms come in a powder-coated finish for ease of spray-painting to the color of your choice!  Our 3-letter custom monograms are available in four sizes, and our individual letters are 20&quot; tall; great for front doors, weddings, or over the bed!" />
+  <meta property="og:image" content="http://trendva.com/images/monogram1.jpg" />
+
+
   <?php include('includes/meta.php'); ?>
 </head>
 <body>
@@ -9,6 +17,7 @@
 <section id="maincontent" class="clrfix">
   <?php include('includes/menu.php'); ?>
   <h1>Metal Monograms</h1>
+  <?php include('includes/sharethis.php'); ?>
   <p style="margin-right:20px;">
     Made in the USA, these metal monograms are one of our favorite products!  Designed for indoor or outdoor use, our monograms come in a powder-coated finish for ease of spray-painting to the color of your choice!  Our 3-letter custom monograms are available in four sizes, and our individual letters are 20&quot; tall; great for front doors, weddings, or over the bed!
   </p>
@@ -79,7 +88,7 @@
             <input type="hidden" name="shopping_url" value="http://trendva.com/metalmonograms.php" />
             <input type="hidden" name="cancel_return" value="http://trendva.com/metalmonograms.php" />
             <input type="hidden" name="return" value="http://trendva.com/metalmonograms.php" />
-            <input type="submit" name="addtocart" value="Add to Cart" class="submit" />
+            <button type="submit" class="btn" id="addtocart">Add to Cart</button>
         </span>
     </div>
   </form>

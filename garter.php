@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
   <title>trend. - Garters</title>
+
+
+  <meta property="og:url" content="http://trendva.com/garter.php" />
+  <meta property="og:title" content="trend. - Garters" />
+  <meta property="og:description" content="Beautiful, beaded wedding garter securely and conveniently holds all of your wedding-day necessities!" />
+  <meta property="og:image" content="http://trendva.com/images/garter1.jpg" />
+
+
   <?php include('includes/meta.php'); ?>
 </head>
 <body>
@@ -9,6 +17,7 @@
 <section id="maincontent" class="clrfix">
   <?php include('includes/menu.php'); ?>
   <h1>Bridal Blue Wedding Collection GlitzyGoGarter&#153;</h1>
+  <?php include('includes/sharethis.php'); ?>
   <p style="margin-right:20px;">Beautiful, beaded wedding garter securely and conveniently holds all of your wedding-day necessities! <a href="https://www.youtube.com/watch?v=DgwQig0qNTQ" target="_blank" style="font-weight:bold;">Watch Video</a></p>
 
   <div class="itemgroup">
@@ -60,7 +69,7 @@
             <input type="hidden" name="shopping_url" value="http://trendva.com/garter.php" />
             <input type="hidden" name="cancel_return" value="http://trendva.com/garter.php" />
             <input type="hidden" name="return" value="http://trendva.com/garter.php" />
-            <input type="submit" name="addtocart" value="Add to Cart" class="submit" />
+            <button type="submit" class="btn" id="addtocart">Add to Cart</button>
         </span>
     </div>
   </form>

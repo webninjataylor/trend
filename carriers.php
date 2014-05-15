@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>trend.</title>
-<link rel="stylesheet" type="text/css" media="screen" href="assets/main.css" />
-<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<script type="text/javascript">
+<title>trend. - Carriers</title>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-31221579-1']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+<meta property="og:url" content="http://trendva.com/carriers.php" />
+<meta property="og:title" content="trend. - Carriers" />
+<meta property="og:description" content="3-in-1, Cake, and Veggie (All include monogramming and matching ribbon)" />
+<meta property="og:image" content="http://trendva.com/images/3in1carrier.jpg" />
 
-</script>
+
+<?php include('includes/meta.php'); ?>
 </head>
 <body>
 <?php include('includes/header.php'); ?>
 <section id="maincontent" class="clrfix">
   <?php include('includes/menu.php'); ?>
-  <h1>Carriers: 3-in-1, Cake, and Veggie <span>(All include monogramming and matching ribbon)</span></h1>
+  <h1>Carriers: 3-in-1, Cake, and Veggie <br /><span>(All include monogramming and matching ribbon)</span></h1>
+  <?php include('includes/sharethis.php'); ?>
   <div class="itemgroup">
   	<a href="carriers.php">
     	<img src="images/3in1carrier.jpg" />
@@ -135,7 +129,7 @@
             <input type="hidden" name="shopping_url" value="http://trendva.com/carriers.php" />
             <input type="hidden" name="cancel_return" value="http://trendva.com/carriers.php" />
             <input type="hidden" name="return" value="http://trendva.com/carriers.php" />
-            <input type="submit" name="addtocart" value="Add to Cart" class="submit" />
+            <button type="submit" class="btn" id="addtocart">Add to Cart</button>
         </span>
     </div>
   </form>

@@ -107,7 +107,7 @@ body {
 	margin:0;
 	background-color:#d1de98;
 	font-family:Arial, Helvetica, sans-serif;
-	font-size: 0.8em;
+	font-size: 14px;
 }
 .rev {
 	color:#ffffff;
@@ -124,19 +124,23 @@ body {
 /******** HEADER ********/
 /************************/
 header {
-	margin:0 auto;
-	background:url('logo2.png') no-repeat top left;
-	height:100px;
-	width:846px;
-	margin-bottom:10px;
-	left:55px;
-	position:relative;
+	margin: 0 auto;
+	height: 100px;
+	margin-bottom: 10px;
+	left: 55px;
+	position: relative;
+    width: 820px;
+}
+#logo-trend {
+    left: -117px;
+    position: absolute;
+    top: 2px;
 }
 #viewcart {
 	display:block;
 	position:absolute;
-	top:20px;
-	right:220px;
+    top: 3px;
+    right: 0;
 }
 #tweetthis {
 	position: absolute;
@@ -148,10 +152,11 @@ header {
 	top: 20px;
 }
 #contactus {
-	position:absolute;
-	right:0;
-	bottom:0;
-	text-align:right;
+	line-height: 1.2em;
+	position: absolute;
+	right: 0;
+	text-align: right;
+    top: 48px;
 }
 #phone {
 	font-size:18px;
@@ -173,11 +178,23 @@ header {
 	left:68px;
 	overflow:visible;
 }
+#sharethis {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin: 10px 20px 10px 0;
+    padding: 5px 0;
+}
+.stButton .stFb, .stButton .stTwbutton, .stButton .stMainServices {
+    height: 23px !important;
+}
+.stButton .stButton_gradient {
+    height: 23px !important;
+}
 .itemgroup {
-	float:left;
-	width:180px;
-	margin-right:20px;
-	margin-bottom:20px;
+	float: left;
+	width: 170px;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 .itemgroup img {
 	width:180px;
@@ -190,15 +207,15 @@ header {
 	opacity:0.5;
 }
 .item {
-	width:160px;
-	padding:10px;
-	background-color:#d6007d;
-	color:#ffffff;
-	font-weight:bold;
-	position:relative;
-	top:-6px;
-	cursor:pointer;
-	font-size:14px;
+	width: 180px;
+	padding: 10px;
+	background-color: #d6007d;
+	color: #ffffff;
+	font-weight: bold;
+	position: relative;
+	top: -6px;
+	cursor: pointer;
+	font-size: 14px;
 }
 .itemgroup a {
 	text-decoration:none;
@@ -211,20 +228,20 @@ header {
 	margin:0 0 10px 10px;
 }
 menu {
-	list-style:none;
-	display:inline-block;
-	position:absolute;
-	left:-140px;
+	list-style: none;
+	display: inline-block;
+	position: absolute;
+	left: -137px;
 	background-color: #ffffff;
 	border: 3px solid #000000;
 	border-bottom: none;
 	border-right: none;
-	margin:0;
-	padding:0;
-	border-top-left-radius:10px;
-	-moz-border-top-left-radius:10px;
-	border-bottom-left-radius:10px;
-	-moz-border-bottom-left-radius:10px;
+	margin: 0;
+	padding: 0;
+	border-top-left-radius: 10px;
+		-moz-border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+		-moz-border-bottom-left-radius: 10px;
 }
 menu li {
 	width: 134px;
@@ -251,6 +268,9 @@ menu li.active a {
 	color: #000000;
 	font-weight: bold;
 }
+h1 {
+    margin: 0;
+}
 h1 span {
 	font-size:14px;
 	font-weight:normal;
@@ -274,13 +294,13 @@ h2 {
 	color:#ff0000;
 }
 footer {
-	margin:0 auto;
-	width:800px;
-	margin-top:10px;
-	margin-bottom:20px;
-	left:55px;
-	position:relative;
-	font-size:12px;
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	left: 146px;
+	position: relative;
+	font-size: 12px;
 }
 .clrfix:after, header:after, footer:after, section:after {
 	visibility:hidden;
@@ -352,6 +372,9 @@ div.row span.label {
 	text-align: right;
 	padding-right:5px;
 }
+.label {
+    color: #000;
+}
 div.row span.field {
 	float: right;
 	width: 180px;
@@ -369,8 +392,9 @@ img.pinimg {
 }
 #hours {
 	position: absolute;
-	right: 310px;
-	top: 55px;
+	right: 0;
+    text-align: right;
+    top: 60px;
 }
 .firstitem {
 	clear: both;
@@ -379,7 +403,7 @@ img.pinimg {
 	float: right;
 	position: relative;
 	top: -10px;
-	width: 200px;
+	width: 185px;
 }
 .kameleon-logo-page {
 	float: right;
@@ -390,4 +414,39 @@ img.pinimg {
 #storenotes img {
 	float: right;
 	margin: 65px 20px 20px 20px;
+}
+.btn {
+    background: #a7f200; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a7f200 0%, #41ad47 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7f200), color-stop(100%,#41ad47)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a7f200 0%,#41ad47 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a7f200 0%,#41ad47 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a7f200 0%,#41ad47 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #a7f200 0%,#41ad47 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7f200', endColorstr='#41ad47',GradientType=0 ); /* IE6-9 */
+    border-radius: 6px;
+        -moz-border-radius:6px;
+        -webkit-border-radius:6px;
+    border: 1px solid #004b66;
+    display: inline-block;
+    color: #d6007d;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #a7f200;
+}
+.btn:hover {
+    background: #41ad47; /* Old browsers */
+    background: -moz-linear-gradient(top,  #41ad47 0%, #a7f200 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41ad47), color-stop(100%,#a7f200)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #41ad47 0%,#a7f200 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #41ad47 0%,#a7f200 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #41ad47 0%,#a7f200 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #41ad47 0%,#a7f200 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41ad47', endColorstr='#a7f200',GradientType=0 ); /* IE6-9 */
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #004b66;
 }

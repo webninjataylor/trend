@@ -144,7 +144,7 @@ On both pages - we can put :
             <input type="hidden" name="shopping_url" value="http://trendva.com/towelwraps.php" />
             <input type="hidden" name="cancel_return" value="http://trendva.com/towelwraps.php" />
             <input type="hidden" name="return" value="http://trendva.com/towelwraps.php" />
-            <input type="submit" name="addtocart" value="Add to Cart" class="submit" />
+            <button type="submit" class="btn" id="addtocart">Add to Cart</button>
         </span>
     </div>
   </form>
