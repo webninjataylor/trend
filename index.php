@@ -7,7 +7,7 @@
     <meta property="og:url" content="http://trendva.com/index.php" />
     <meta property="og:title" content="trend." />
     <meta property="og:description" content="trend is a small, family-owned, retail store in Southside Virginia. We focus our inventory on Virginia-made products. Anything, personalized is done in house, or, local to our store. We look forward to serving you, and, hope you'll visit us in person soon." />
-    <meta property="og:image" content="http://trendva.com/assets/logo2.png" />
+    <meta property="og:image" content="http://trendva.com/assets/logo3.png" />
 
 
     <?php include('includes/meta.php'); ?>

@@ -3,7 +3,6 @@
 <head>
 <title>trend. - Glasses</title>
 
-
 <meta property="og:url" content="http://trendva.com/glasses.php" />
 <meta property="og:title" content="trend. - Glasses" />
 <meta property="og:description" content="Includes monogramming and matching ribbon" />
@@ -21,19 +20,19 @@
   <p>Call for more glass options (Beer Mugs, Martini Glasses, etc.)</p>
   <div class="itemgroup">
     <a href="glasses.php">
-        <img src="images/wineglass.jpg" />
+        <img src="images/wineglass.jpg" alt="Wine glass" />
         <div class="item">Wine Glasses</div>
     </a>
   </div>
   <div class="itemgroup">
     <a href="glasses.php">
-        <img src="images/pilsners.jpg" />
+        <img src="images/pilsners.jpg" alt="Pilsners" />
         <div class="item">Pilsners</div>
     </a>
   </div>
   <div class="itemgroup">
     <a href="glasses.php">
-        <img src="images/pilsners2.jpg" />
+        <img src="images/pilsners2.jpg" alt="Pilsners with ribbons" />
         <div class="item">Pilsners w/ Ribbons</div>
     </a>
   </div>
