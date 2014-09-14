@@ -12,7 +12,7 @@
     <div id="contactus">
         <a href="mailto:trend@trendva.com">trend@trendva.com</a> &#149; <span id="phone">(434) 292-5000</span><br />
         <span id="address">
-            108 North Main Street, Blackstone, VA 23824<br />
+            201 South Main Street, Blackstone, VA 23824<br />
             <strong>10-6 M-F &#149; 10-4 Sat. &#149; Open Sundays in December</strong>
         </span>
     </div>    
